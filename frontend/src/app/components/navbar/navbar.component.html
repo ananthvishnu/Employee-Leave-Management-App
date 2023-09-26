@@ -1,0 +1,21 @@
+<header id="navbar">
+  <nav class="navbar-container container">
+    <a href="javascript:void(0);" [routerLink]="['']" class="home-link">
+      <div class="navbar-logo"></div>
+      Employee Leave Manager
+    </a>
+    <button type="button" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div id="navbar-menu" aria-labelledby="navbar-toggle">
+      <ul class="navbar-links">
+        <li class="navbar-item"><a class="navbar-link" href="javascript:void(0);" [routerLink]="['/signup']">Signup</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="javascript:void(0);" [routerLink]="['/login']">Login</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="javascript:void(0);" [routerLink]="['/dashboard']">Dashboard</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="javascript:void(0);">LogOut</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
